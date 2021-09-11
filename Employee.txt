@@ -1,0 +1,14 @@
+CREATE TABLE Employee
+   (
+      EmployeeID int IDENTITY (1,1) NOT NULL
+      , CONSTRAINT PK_Employee_PrimaryKey PRIMARY KEY CLUSTERED (EmployeeID),
+	  Name Varchar(250),
+	  Address Varchar(500),
+	  Email Varchar(100))
+	  
+
+insert into Employee values ('vithal','Navi Mumbai','abc@gmail.com')   
+insert into Employee  values  ('Shivanand','Mumbai','xyz@yahoo.com')  
+insert into Employee  values  ('Shivanand','Mumbai','xyz@yahoo.com')  
+insert into Employee  values   ('Sudhir','Latur','ac12@gmail.com.com')  
+
